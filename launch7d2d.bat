@@ -43,7 +43,7 @@ if /i "%useSteamLaunch%"=="true" (
 
 REM === DELAY TO ALLOW PROCESS TO START ===
 if /i not "%silentMode%"=="true" echo Waiting 10 seconds for process to initialize...
-timeout /t 10 >nul
+timeout /t 15 >nul
 
 REM === WAIT FOR PROCESS TO EXIT ===
 :waitForProcess
